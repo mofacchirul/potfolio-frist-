@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+.nav-item{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+background-color: white;
+padding: 10px 5px;
+}
+.title{
+    font-weight: bold;
+    font-size: 25px;
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+   
+.title:hover{
+    color: purple;
+}
+.ul-item{
+    display: flex;
+justify-content: center;
+
+
+}
+.nav-item li{
+    margin: 5px 8px;
+    
+}
+.nav-item a{
+    color: black;
+    font-size: 22px;
+} 
+.nav-item a:hover {
+    color: blue;
+    
+
+}
+main{
+    background-image: url('./images\ \(3\).jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+height: 90vh;
+   
+}
+.information{
+    width: 70%;
+  margin-left: 150px;
+   display: flex;
+
+   padding: 20px;
+   gap: 10px;
+}
+.information>div {
+    flex: 1;
+}
+span{
+    color: orange;
+}
+.item1 {
+    margin-top: 50px;
+    
+}
+.item1 h1{
+    font-size: 50px;
+}
+.item1 h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.item1 button{
+  background-color: darkslateblue;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.item1 button:hover{
+    background-color: orange;
+}
+.item1 button i{
+   
+
+ color: white;
+    padding-left: 3px;
+}
+
+.icon{
+    margin-top: 90px;
+    
+}
+
+
+.icon i{
+    padding: 5px 10px;
+    font-size: 25px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: black;
+display: inline;
+color: aqua;
+
+
+}
+.icon i:hover{
+    color: white;
+}
+.item2 {
+    margin-top: 50px;
+
+   
+}
+.item2 img{
+   
+   width: 250px;
+   height: 300px;
+   margin-left: 120px;
+margin-top: 8px;
+   border-radius: 10px;
+}
